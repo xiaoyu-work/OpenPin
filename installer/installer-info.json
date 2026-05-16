@@ -1,0 +1,17 @@
+{
+  "doc": "README.md",
+  "actions": [
+    {
+      "title": "Install OpenPin",
+      "description": "Install for first time",
+      "doc": "install.md",
+      "script": "install.sh"
+    },
+    {
+      "title": "Relaunch OpenPin",
+      "description": "Required after reboot",
+      "doc": "relaunch.md",
+      "script": "relaunch.sh"
+    }
+  ]
+}

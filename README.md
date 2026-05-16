@@ -6,6 +6,12 @@ OpenPin is an open-source project which lets you use your Ai Pin after Humane br
 
 Please see [OpenPin.org](https://openpin.org) for installation and usage instructions.
 
+If you'd rather not use the web Hub (or you want to debug a failed install),
+you can run the same installer scripts locally with `adb`. See
+[`installer/README.md`](installer/README.md) for instructions. The local
+scripts also retry around the transient `pm` failures (`Broken pipe`,
+`Can't find service: package`) that can happen on the Pin's package manager.
+
 ## Building a Interposer
 
 ![Assembled interposers](.github/assets/interposers.jpg)
